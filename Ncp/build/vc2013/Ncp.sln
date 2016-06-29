@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ncp", "Ncp.vcxproj", "{6339E063-09AB-41F5-A7C1-4B3BFBE8B34B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{641EBC30-240F-4818-ADB2-ED8022040338} = {641EBC30-240F-4818-ADB2-ED8022040338}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IoService", "..\..\lib\IoService\build\vc2013\IoService.vcxproj", "{641EBC30-240F-4818-ADB2-ED8022040338}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_dll|Win32 = Debug_dll|Win32
+		Debug_lib|Win32 = Debug_lib|Win32
+		Release_dll|Win32 = Release_dll|Win32
+		Release_lib|Win32 = Release_lib|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6339E063-09AB-41F5-A7C1-4B3BFBE8B34B}.Debug_dll|Win32.ActiveCfg = Debug_dll|Win32
+		{6339E063-09AB-41F5-A7C1-4B3BFBE8B34B}.Debug_dll|Win32.Build.0 = Debug_dll|Win32
+		{6339E063-09AB-41F5-A7C1-4B3BFBE8B34B}.Debug_lib|Win32.ActiveCfg = Debug_lib|Win32
+		{6339E063-09AB-41F5-A7C1-4B3BFBE8B34B}.Debug_lib|Win32.Build.0 = Debug_lib|Win32
+		{6339E063-09AB-41F5-A7C1-4B3BFBE8B34B}.Release_dll|Win32.ActiveCfg = Release_dll|Win32
+		{6339E063-09AB-41F5-A7C1-4B3BFBE8B34B}.Release_dll|Win32.Build.0 = Release_dll|Win32
+		{6339E063-09AB-41F5-A7C1-4B3BFBE8B34B}.Release_lib|Win32.ActiveCfg = Release_lib|Win32
+		{6339E063-09AB-41F5-A7C1-4B3BFBE8B34B}.Release_lib|Win32.Build.0 = Release_lib|Win32
+		{641EBC30-240F-4818-ADB2-ED8022040338}.Debug_dll|Win32.ActiveCfg = Debug_dll|Win32
+		{641EBC30-240F-4818-ADB2-ED8022040338}.Debug_dll|Win32.Build.0 = Debug_dll|Win32
+		{641EBC30-240F-4818-ADB2-ED8022040338}.Debug_lib|Win32.ActiveCfg = Debug_lib|Win32
+		{641EBC30-240F-4818-ADB2-ED8022040338}.Debug_lib|Win32.Build.0 = Debug_lib|Win32
+		{641EBC30-240F-4818-ADB2-ED8022040338}.Release_dll|Win32.ActiveCfg = Release_dll|Win32
+		{641EBC30-240F-4818-ADB2-ED8022040338}.Release_dll|Win32.Build.0 = Release_dll|Win32
+		{641EBC30-240F-4818-ADB2-ED8022040338}.Release_lib|Win32.ActiveCfg = Release_lib|Win32
+		{641EBC30-240F-4818-ADB2-ED8022040338}.Release_lib|Win32.Build.0 = Release_lib|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

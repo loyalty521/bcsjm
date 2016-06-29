@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Client">
+      <UniqueIdentifier>{e2e09707-2bb5-47cc-bc84-5b57920af9ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{b5a43ee5-a508-4617-8c65-6ad2e562d627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Devices">
+      <UniqueIdentifier>{012ace30-789c-48b6-94b4-3e44ac237e53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Ncp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\NcpDevices.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Client\Client.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Server\Device.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Server\DeviceImpl.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Server\Server.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Server\ServerImpl.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Server\Devices\HydrantDecoder.cpp">
+      <Filter>Server\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Server\Devices\JettingHydrantDecoder.cpp">
+      <Filter>Server\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Server\Devices\JettingHydrantDomainCtrlBox.cpp">
+      <Filter>Server\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Server\Devices\LinearBeamSmokeFireDetector.cpp">
+      <Filter>Server\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Server\Devices\LinearBeamSmokeFireDetectorEx.cpp">
+      <Filter>Server\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Server\Devices\VideoFireDetector.cpp">
+      <Filter>Server\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Server\Devices\VideoFlameFireDetector.cpp">
+      <Filter>Server\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Server\Devices\VideoFlameFireDetectorEx.cpp">
+      <Filter>Server\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Server\Devices\VideoFlameFireDetectorOD.cpp">
+      <Filter>Server\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Server\Devices\VideoSFCompositeFireDetector.cpp">
+      <Filter>Server\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Server\Devices\VideoSFCompositeFireDetectorEx.cpp">
+      <Filter>Server\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Server\Devices\VideoSFCompositeFireDetectorOD.cpp">
+      <Filter>Server\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Server\Devices\VisualLinearBeamSmokeFireDetector.cpp">
+      <Filter>Server\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Server\Devices\VisualLinearBeamSmokeFireDetectorEx.cpp">
+      <Filter>Server\Devices</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Ncp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\NcpDevices.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\NcpImpl.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Client\Client.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Server\Device.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Server\DeviceImpl.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Server\Server.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Server\ServerImpl.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Server\Devices\HydrantDecoder.h">
+      <Filter>Server\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Server\Devices\JettingHydrantDecoder.h">
+      <Filter>Server\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Server\Devices\JettingHydrantDomainCtrlBox.h">
+      <Filter>Server\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Server\Devices\LinearBeamSmokeFireDetector.h">
+      <Filter>Server\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Server\Devices\LinearBeamSmokeFireDetectorEx.h">
+      <Filter>Server\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Server\Devices\VideoFireDetector.h">
+      <Filter>Server\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Server\Devices\VideoFlameFireDetector.h">
+      <Filter>Server\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Server\Devices\VideoFlameFireDetectorEx.h">
+      <Filter>Server\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Server\Devices\VideoFlameFireDetectorOD.h">
+      <Filter>Server\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Server\Devices\VideoSFCompositeFireDetector.h">
+      <Filter>Server\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Server\Devices\VideoSFCompositeFireDetectorEx.h">
+      <Filter>Server\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Server\Devices\VideoSFCompositeFireDetectorOD.h">
+      <Filter>Server\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Server\Devices\VisualLinearBeamSmokeFireDetector.h">
+      <Filter>Server\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Server\Devices\VisualLinearBeamSmokeFireDetectorEx.h">
+      <Filter>Server\Devices</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Ncp.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
